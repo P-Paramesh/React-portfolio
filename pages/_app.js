@@ -4,10 +4,10 @@ import Header from "./components/Header";
 import Ma from './components/Features';
 import Cards from './components/Subtitle';
 import Help from './components/Helpdesk';
-import Fsm from './components/Fsm'
-import Esm from './components/Esm';
-import Itsm from './components/Itsm'
-import Itam from './components/Itam'
+import Fsm from './components/FSM'
+import Esm from './components/ESM';
+import Itsm from './components/ITSM'
+import Itam from './components/ITAM'
 
 export default function MyApp(){
   return(
