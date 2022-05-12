@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Image, Box, Flex, chakra, useColorModeValue, Text, Link, Wrap, WrapItem, Center } from "@chakra-ui/react";
 import {
   List,
