@@ -1,19 +1,6 @@
 import {Text,Box,Flex,useColorModeValue,Image,Stack} from "@chakra-ui/react";
 import { Wrap, WrapItem, Center } from '@chakra-ui/react'
 
-const Component = () => {
-
-  const slides = [
-    {
-      img: "/lines1.png",
-      title: "What is Asista?",
-      description: "Simply put Asista is an intelligent customer-support ticketing software designed to be cross-functional, collaborative & socially-intelligent.",
-      p0:"Simplify your business processes and connect your teams, customers and basic assets.",
-      p1:"Empower your field agents with a seamless mobile application & always fulfill your SLAs.",
-      p2:"Keep your finger on the pulse of your assets with full-lifecycle Advanced Asset Management.",
-      p3:"Optimize your IT processes with Asista ITSM to make your agents more efficient."
-    },
-  ];
 
 
   const carouselStyle = {
