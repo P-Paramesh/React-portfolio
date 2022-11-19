@@ -1,10 +1,4 @@
-import { Box, Flex, chakra, useColorModeValue, Text, Link, Img } from "@chakra-ui/react";
-import {
-  List,
-  ListItem,
-  ListIcon,
-} from '@chakra-ui/react'
-import {CheckCircleIcon} from "@chakra-ui/icons"
+
 
 export default function Esm(){
     return (
