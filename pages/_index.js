@@ -18,7 +18,6 @@ const colors = {
   }
 };
 
-  useSystemColorMode: false
 };
 
 const theme = extendTheme({ colors, config });
