@@ -18,8 +18,6 @@ const colors = {
   }
 };
 
-};
-
 const theme = extendTheme({ colors, config });
 
 const rootElement = document.getElementById("root");
