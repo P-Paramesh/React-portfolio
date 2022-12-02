@@ -8,9 +8,7 @@ const colors = {
   
     
    
-    900: "#080819"
-  }
-};
+   
 
 const theme = extendTheme({ colors, config });
 
