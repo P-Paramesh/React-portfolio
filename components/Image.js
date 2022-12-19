@@ -11,7 +11,6 @@ import {
 const Man = () => {
   return (
     <Flex
-      bg={useColorModeValue("white", "white")}
       maxW="full"
       p={50}
     >
