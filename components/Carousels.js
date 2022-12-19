@@ -59,7 +59,7 @@ const Component = () => {
                 color="white"
               >
 
-              <Wrap spacing='15px' padding={5}>
+              
               
               <Wrap >
                   <WrapItem>
