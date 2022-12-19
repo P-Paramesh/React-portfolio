@@ -106,7 +106,8 @@ const Component = () => {
 
             </Box>
 
-          ))}
+          )
+         }
         </Flex>
       </Flex>
     </Flex>
