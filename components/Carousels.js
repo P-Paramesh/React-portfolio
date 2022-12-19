@@ -15,10 +15,6 @@ const Component = () => {
     },
   ];
 
-  const carouselStyle = {
-    transition: "all .5s",
-  };
-
   return (
     <Flex
       w="full"
