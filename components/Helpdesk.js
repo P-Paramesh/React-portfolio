@@ -85,9 +85,4 @@ export default function Help(){
           <Text fontSize='xl' color='purple.300'>
             Know More...
           </Text>
-        </Link>
      
-    </chakra.h2>
-</Flex>
-    ) 
-}
