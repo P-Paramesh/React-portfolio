@@ -81,8 +81,4 @@ export default function Help(){
           </List>
         </Text>
 
-        <Link >
-          <Text fontSize='xl' color='purple.300'>
-            Know More...
-          </Text>
-     
+       
