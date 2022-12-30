@@ -73,10 +73,7 @@ export default function Help(){
             <ListIcon as={CheckCircleIcon} color='purple.500' />
             Items-Based Support          
             </ListItem>
-          <ListItem>
-            <ListIcon as={CheckCircleIcon} color='purple.500' />
-            Real-Time SLA Notifications
-            </ListItem>
+         
 
           </List>
         </Text>
