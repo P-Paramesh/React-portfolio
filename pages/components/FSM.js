@@ -6,7 +6,7 @@ import {
 } from '@chakra-ui/react'
 import { CheckCircleIcon} from "@chakra-ui/icons"
 
-export default function Help(){
+export default function feasum(){
     return (
 <Flex
       bg={useColorModeValue("white", "white")}
