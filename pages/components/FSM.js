@@ -70,7 +70,6 @@ export default function feasum(){
           </Text>
         </Link>
     </chakra.h2>
-
     <Box boxSize='50%'
     background={"white"}
     p={'10'}
