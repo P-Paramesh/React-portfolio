@@ -23,3 +23,10 @@ export default function Header() {
   const ref = React.useRef();
   const [y, setY] = React.useState(0);
   const { height = 0 } = ref.current ? ref.current.getBoundingClientRect() : {};
+  
+  const { scrollY } = useViewportScroll();
+  React.useEffect(() => {
+    return scrollY.onChange(() => setY(scrollY.get()));
+  }, [scrollY]);
+  const cl = useColorModeValue("gray.800", "white");
+  const mobileNav = useDisclosure();
