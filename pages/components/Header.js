@@ -37,3 +37,11 @@ export default function Header() {
   const hbg = useColorModeValue("white", "brand.400");
   const tcl = useColorModeValue("gray.900", "gray.50");
   const dcl = useColorModeValue("gray.500", "gray.50");
+     return (
+      <Link
+        m={-3}
+        p={3}
+        display="flex"
+        alignItems="start"
+        rounded="lg"
+      >
