@@ -45,3 +45,16 @@ export default function Header() {
         alignItems="start"
         rounded="lg"
       >
+        <Icon
+          flexShrink={0}
+          h={6}
+          w={6}
+          color={ic}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+          aria-hidden="true"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+        >
