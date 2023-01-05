@@ -58,3 +58,5 @@ export default function Header() {
           strokeLinejoin="round"
           strokeWidth="2"
         >
+         <path d={props.icon} />
+        </Icon>
