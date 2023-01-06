@@ -72,3 +72,17 @@ export default function Header() {
     );
   };
 
+ const sections = [
+    {
+      title: "Asista Helpdesk",
+    },
+    {
+      title: "Asista FSM",
+    },
+    {
+      title: "Asista ESM",
+    },
+    {
+      title: "Asista ITSM",
+    },
+  
