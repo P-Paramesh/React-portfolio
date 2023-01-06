@@ -60,3 +60,7 @@ export default function Header() {
         >
          <path d={props.icon} />
         </Icon>
+         <Box ml={4}>
+          <chakra.p fontSize="sm" fontWeight="700" color={tcl}>
+            {props.title}
+          </chakra.p>
