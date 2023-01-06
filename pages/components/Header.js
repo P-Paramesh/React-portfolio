@@ -64,3 +64,11 @@ export default function Header() {
           <chakra.p fontSize="sm" fontWeight="700" color={tcl}>
             {props.title}
           </chakra.p>
+          <chakra.p mt={1} fontSize="xlg" color={dcl}>
+            {props.children}
+          </chakra.p>
+        </Box>
+      </Link>
+    );
+  };
+
