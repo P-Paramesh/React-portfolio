@@ -94,3 +94,13 @@ const Features = (props) => {
     const hbg = useColorModeValue("gray.100", "brand.400");
     const hbgh = useColorModeValue("gray.100", "brand.500");
     const tcl = useColorModeValue("gray.900", "gray.50");
+  return (
+      <React.Fragment>
+        <SimpleGrid
+          columns={props.h ? { base: 1, md: 3, lg: 5 } : 1}
+          pos="relative"
+          gap={{ base: 6, sm: 8 }}
+          px={5}
+          py={6}
+          p={{ sm: 8 }}
+        >
