@@ -104,3 +104,7 @@ const Features = (props) => {
           py={6}
           p={{ sm: 8 }}
         >
+             {sections.map(({ title,}, sid) => (
+            <Section title={title} > 
+            </Section>
+          ))}
