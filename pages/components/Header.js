@@ -89,3 +89,8 @@ export default function Header() {
       title: "Asista ITAM ",
     },
   ];
+
+const Features = (props) => {
+    const hbg = useColorModeValue("gray.100", "brand.400");
+    const hbgh = useColorModeValue("gray.100", "brand.500");
+    const tcl = useColorModeValue("gray.900", "gray.50");
