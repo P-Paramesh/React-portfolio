@@ -113,3 +113,13 @@ const Features = (props) => {
         <Box px={{ base: 5, sm: 8 }} py={5} bg={hbg} display={{ sm: "flex" }}>
           <Stack direction={{ base: "row" }} spacing={{ base: 6, sm: 10 }}>
             <Box display="flow-root">
+              <Link
+                m={-3}
+                p={3}
+                display="flex"
+                alignItems="center"
+                rounded="md"
+                fontSize="md"
+                color={tcl}
+                _hover={{ bg: "#2F855A" }}
+              >
