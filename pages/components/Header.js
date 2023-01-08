@@ -108,3 +108,8 @@ const Features = (props) => {
             <Section title={title} > 
             </Section>
           ))}
+          </SimpleGrid>
+
+        <Box px={{ base: 5, sm: 8 }} py={5} bg={hbg} display={{ sm: "flex" }}>
+          <Stack direction={{ base: "row" }} spacing={{ base: 6, sm: 10 }}>
+            <Box display="flow-root">
