@@ -152,3 +152,17 @@ const Features = (props) => {
                 fontSize="md"
                 color={tcl}
               >
+              
+              <Icon
+                  flexShrink={0}
+                  h={6}
+                  w={6}
+                  color="gray.400"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                >
