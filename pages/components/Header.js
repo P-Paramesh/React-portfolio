@@ -141,3 +141,14 @@ const Features = (props) => {
                 </Icon>
               </Link>
             </Box>
+
+            <Box display="flow-root">
+              <Link
+                m={-3}
+                p={3}
+                display="flex"
+                alignItems="center"
+                rounded="md"
+                fontSize="md"
+                color={tcl}
+              >
