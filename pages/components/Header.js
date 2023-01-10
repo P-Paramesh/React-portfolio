@@ -201,3 +201,11 @@ const Features = (props) => {
       overflowY="hidden"
     
     >
+   <chakra.div h="4.5rem" mx="auto" maxW="1200px">
+        <Flex
+          w="full"
+          h="full"
+          px="6"
+          alignItems="center"
+          justifyContent="space-between"
+        >
