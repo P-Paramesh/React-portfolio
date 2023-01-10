@@ -209,3 +209,24 @@ const Features = (props) => {
           alignItems="center"
           justifyContent="space-between"
         >
+   <img src="/asista-logo.png" alt="Asista" sizes="30px"/>
+          <Flex align="flex-start">
+            <Link href="/">
+              <HStack>
+              </HStack>
+            </Link>
+          </Flex>
+          <Flex>
+            <HStack spacing="4" display={{ base: "none", md: "flex" }}>
+              <Popover>
+                <PopoverTrigger>
+                  <Button
+                    bg="white"
+                    color="black"
+                    display="inline-flex"
+                    alignItems="center"
+                    fontSize="md"
+                    _hover={{ color: "#2F855A" }}
+                    _focus={{ boxShadow: "none" }}
+                    
+                  >
