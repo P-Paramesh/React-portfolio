@@ -194,3 +194,10 @@ const Features = (props) => {
     >
     </VStack>
   );
+
+ return (
+    <chakra.header
+      w="full"
+      overflowY="hidden"
+    
+    >
