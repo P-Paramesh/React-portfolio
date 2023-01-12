@@ -230,3 +230,14 @@ const Features = (props) => {
                     _focus={{ boxShadow: "none" }}
                     
                   >
+                     Solutions
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent
+                  w="100vw"
+                  maxW="md"
+                  _focus={{ boxShadow: "lg" }}
+                >
+                  <Features />
+                </PopoverContent>
+              </Popover>
