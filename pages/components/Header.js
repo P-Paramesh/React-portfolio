@@ -228,7 +228,6 @@ const Features = (props) => {
                     fontSize="md"
                     _hover={{ color: "#2F855A" }}
                     _focus={{ boxShadow: "none" }}
-                    
                   >
                      Solutions
                   </Button>
