@@ -261,6 +261,7 @@ const Features = (props) => {
                 _focus={{ boxShadow: "none" }}
               >
                 FAQs
+              </Button>
               <Button
                 bg={bg}
                 color="black"
