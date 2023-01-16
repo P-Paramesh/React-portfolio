@@ -284,3 +284,15 @@ const Features = (props) => {
               >
                 Partners
               </Button>
+              <Button
+                bg="white"
+                color="black"
+                display="inline-flex"
+                alignItems="center"
+                fontSize="md"
+               _hover={{ color: "#2F855A" }}
+               _focus={{ boxShadow: "none " }}
+               outline= "black"
+              >
+                <Box border='1px' padding={2} paddingStart={5} paddingEnd={5} borderColor='gray.600'> Free Trial</Box>
+              </Button>
