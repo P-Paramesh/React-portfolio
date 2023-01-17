@@ -306,3 +306,14 @@ const Features = (props) => {
                _focus={{ boxShadow: "none" }}
 
               >
+                Book a Call
+              </Button>
+            </HStack>
+          </Flex>
+          
+        </Flex>
+        {MobileNavContent}
+      </chakra.div>
+    </chakra.header>
+  );
+}
