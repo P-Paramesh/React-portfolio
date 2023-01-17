@@ -299,3 +299,6 @@ const Features = (props) => {
              <Button
                 bg="#0BC5EA"
                 color="black"
+                display="inline-flex"
+                alignItems="center"
+                fontSize="md"
