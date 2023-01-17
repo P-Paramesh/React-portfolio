@@ -302,3 +302,7 @@ const Features = (props) => {
                 display="inline-flex"
                 alignItems="center"
                 fontSize="md"
+                hover={{ color: "#2F855A" }}
+               _focus={{ boxShadow: "none" }}
+
+              >
