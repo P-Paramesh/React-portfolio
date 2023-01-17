@@ -296,3 +296,6 @@ const Features = (props) => {
               >
                 <Box border='1px' padding={2} paddingStart={5} paddingEnd={5} borderColor='gray.600'> Free Trial</Box>
              </Button>
+             <Button
+                bg="#0BC5EA"
+                color="black"
