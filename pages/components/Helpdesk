@@ -5,3 +5,20 @@ import {
   ListIcon,
 } from '@chakra-ui/react'
 import {CheckCircleIcon} from "@chakra-ui/icons"
+
+export default function Help(){
+    return (
+<Flex
+      bg={useColorModeValue("white", "white")}
+      
+      p={20}
+      w="half"
+      alignItems="left"
+      justifyContent="center"
+    >
+    <Box boxSize='50%'
+    p={20}
+    mx={'auto'}
+    w="5xl">
+    <Img src='/ticketing-automation-crop.jpg' alt='Asista' />
+    </Box>
