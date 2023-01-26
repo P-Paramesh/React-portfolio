@@ -9,15 +9,6 @@ import {
 } from "@chakra-ui/react";
 
 const Man = () => {
-  return (
-    <Flex
-      maxW="full"
-      p={50}
-    >
-    
-    <Box>
-    
-        </Box>
-        <Spacer />
+  return ()
 
 export default Man;
