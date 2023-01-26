@@ -20,15 +20,4 @@ const Man = () => {
         </Box>
         <Spacer />
 
-          <Flex >
-          <Image                                       
-        fit="center"
-        src="/hmAppBanner.jpg"
-        alt="Article"
-      />
-        </Flex>
-    </Flex>
-  );
-};
-
 export default Man;
