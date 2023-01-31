@@ -5,7 +5,7 @@ export default function Cards(){
         bg={useColorModeValue("white", "white")}
         p={50}
         w="full"
-        justifyContent="center"
+      
       >
         <Box
           mx="auto"
