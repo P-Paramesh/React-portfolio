@@ -72,8 +72,6 @@ const Component = () => {
                     <Center w='200px' bg='transparent' textAlign='start'>{slide.p0}</Center>
                   </WrapItem>
                 </Wrap>
-                
-
 
                 <Wrap >
                   <WrapItem>
