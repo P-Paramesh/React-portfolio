@@ -55,8 +55,6 @@ const Component = () => {
                 color="white"
               >
 
-              
-              
               <Wrap >
                   <WrapItem>
                     <Center w='220px' bg='transparent' fontSize={'3xl'} textAlign='start'>{slide.title}</Center>
