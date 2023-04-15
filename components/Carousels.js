@@ -2,7 +2,6 @@ import {Text,Box,Flex,useColorModeValue,Image,Stack} from "@chakra-ui/react";
 import { Wrap, WrapItem, Center } from '@chakra-ui/react'
 
 const Component = () => {
-
   const slides = [
     {
       img: "/lines1.png",
