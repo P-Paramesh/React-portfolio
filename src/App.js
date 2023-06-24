@@ -16,7 +16,11 @@ const App = () => {
           <IconButton icon={<FaLinkedin />}
           isRound="true"
           onClick={() =>
-          window.open("https://www.linkedin.com/in/paramesh-p-3603321ba/")}></IconButton>
+          window.open("https://www.linkedin.com/in/paramesh-p-3603321ba/")}> </IconButton>
+         <IconButton ml={2}
+          icon={<FaGithub/>}
+          isRound="true"
+          onClick={()=> window.open("https://github.com/P-Paramesh")}></IconButton>
         </Flex>
       </VStack>
     )
