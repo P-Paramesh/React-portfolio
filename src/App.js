@@ -21,6 +21,12 @@ const App = () => {
           icon={<FaGithub/>}
           isRound="true"
           onClick={()=> window.open("https://github.com/P-Paramesh")}></IconButton>
+          <IconButton
+          ml={8}
+          icon={isDark ? <FaSun /> : <FaMoon />}
+          isRound={true}
+          onClick={toggleColorMode}>
+          </IconButton>
         </Flex>
       </VStack>
     )
