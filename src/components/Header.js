@@ -56,8 +56,8 @@ const Header = () => {
           boxShadow="lg"
           boxSize="300px"
           src='https://avatars.githubusercontent.com/u/95079545?v=4'
-          zIndex={1}
-/>
+          zIndex={1} 
+          />
       </Flex>
     </Stack>
   );
