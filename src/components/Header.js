@@ -55,7 +55,8 @@ const Header = () => {
           backgroundColor="transparent"
           boxShadow="lg"
           boxSize="300px"
-          src='https://avatars.githubusercontent.com/u/95079545?v=4'
+          src="https://avatars.githubusercontent.com/u/95079545?s=400&u=e5f36db1d6a7fda807dd060cb3bc2d3e03e7b403&v=4" 
+          alt="Profile Picture"
           zIndex={1} 
           />
       </Flex>
