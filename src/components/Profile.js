@@ -22,6 +22,18 @@ const Profile = () => {
               React
             </Text>
           </Flex>
+         <Flex rounded="xl" direction="column" m={6} bg="blue.300"_hover={{bg:"blue.400"}}  h="30vh" w="30vh" justify="flex-end">
+            <Icon color="white" p="4" w="24" h="24" as={SiChakraui} />
+            <Text color="gray.800" p="4" fontSize="xl" fontWeight="semibold">
+             Chakra Ui
+            </Text>
+          </Flex>
+          <Flex rounded="xl" direction="column" m={6} bg="teal.300"_hover={{bg:"teal.500"}}  h="30vh" w="30vh" justify="flex-end">
+            <Icon color="white" p="4" w="24" h="24" as={ImGithub} />
+            <Text color="gray.800" p="4" fontSize="xl" fontWeight="semibold">
+             Github
+            </Text>
+          </Flex>
         </Flex>
       </Box>
       
