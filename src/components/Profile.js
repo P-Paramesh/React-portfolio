@@ -18,7 +18,7 @@ const Profile = () => {
         <Flex direction={isNotSmallerScreen ? "row" : "column"} mt={8}>
           <Flex rounded="xl" direction="column" m={6} bg="blue.800" h="30vh" w="30vh" justify="flex-end">
             <Icon color="white" p="4" w="24" h="24" as={DiReact} />
-            <Text color="white" p="4" fontSize="xl" fontWeight="semibold">
+           <Text color="gray.800" p="4" fontSize="xl" fontWeight="semibold">
               React
             </Text>
           </Flex>
