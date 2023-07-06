@@ -36,7 +36,6 @@ const Profile = () => {
           </Flex>
         </Flex>
       </Box>
-      
     </Flex>
   )
 }
