@@ -2,6 +2,10 @@ import { IconButton } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { VStack, Heading, Flex, Spacer} from "@chakra-ui/layout";
 import { FaLinkedin} from "react-icons/fa";
+import { FaMoon, FaSun } from "react-icons/fa";
+import Header from "./components/Header";
+import Profile from "./components/Profile";
+
 const App = () => {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark"
