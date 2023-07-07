@@ -32,6 +32,8 @@ const App = () => {
           onClick={toggleColorMode}>
           </IconButton>
         </Flex>
+        <Header />
+        <Profile />
       </VStack>
     )
 
