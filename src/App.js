@@ -36,5 +36,5 @@ const App = () => {
         <Profile />
       </VStack>
     )
-
+}
 export default App;
