@@ -3,7 +3,6 @@ import { HStack } from "@chakra-ui/react";
 import React from "react";
 import {FaYoutube, FaGithub, FaLinkedin} from "react-icons/fa";
 
-
 const Social = () => {
   return (
     <HStack spacing={24}>
