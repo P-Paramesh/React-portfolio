@@ -33,9 +33,9 @@ const Header = () => {
             Hi, I am
           </Text>
           <Text
-            fontSize="7xl"
+             fontSize="7xl"
             fontWeight="bold"
-            bgGradient="linear(to-r, cyan.400, blue.500, purple.600)"
+            bgGradient="linear(to-r, yellow.300, yellow.600)"
             bgClip="text"
           >
             Paramesh
