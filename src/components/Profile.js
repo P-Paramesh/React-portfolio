@@ -6,7 +6,6 @@ import {DiReact, } from "react-icons/di";
 import {SiChakraui} from "react-icons/si"
 import {ImGithub} from "react-icons/im"
 
-
 const Profile = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
   return(
