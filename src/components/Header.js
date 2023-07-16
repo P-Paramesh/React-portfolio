@@ -8,7 +8,6 @@ import React from "react";
 const Header = () => {
   const { colorMode } = useColorMode();
   const isDark = colorMode === "dark";
-
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
   return (
     <Stack>
