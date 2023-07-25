@@ -12,5 +12,4 @@ const Social = () => {
     </HStack>
   )
 }
-
 export default Social;
