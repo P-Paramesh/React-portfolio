@@ -42,7 +42,7 @@ const Header = () => {
           <Text color={isDark ? "gray.200" : "gray.500"}>
            I am a Frontend Developer love to develope Web Applications
           </Text>
-          <Button mt={8} colorScheme="blue">
+          <Button mt={8} colorScheme="yellow.400">
             Hire Me
           </Button>
         </Box>
