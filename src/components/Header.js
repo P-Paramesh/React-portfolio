@@ -27,22 +27,22 @@ const Header = () => {
         p={isNotSmallerScreen ? "32" : 0}
         alignSelf="flex-start"
       >
-        <Box mt={isNotSmallerScreen ? 0 : 16} align="flex-start">
+       <Box mt={isNotSmallerScreen ? 0 : 16} align="flex-start">
           <Text fontSize="5xl" fontWeight="semibold">
             Hi, I am
           </Text>
           <Text
              fontSize="7xl"
             fontWeight="bold"
-            bgGradient="linear(to-r, yellow.300, yellow.600)"
+            bgGradient="linear(to-r, yellow.200, yellow.600)"
             bgClip="text"
           >
             Paramesh
           </Text>
-          <Text color={isDark ? "gray.200" : "gray.500"}>
+          <Text color={isDark ? "gray.200" : "gray.800"}>
            I am a Frontend Developer love to develope Web Applications
           </Text>
-          <Button mt={8} colorScheme="yellow.400">
+          <Button mt={8} color='teal.400' variant='ghost' colorScheme='gray'>
             Hire Me
           </Button>
         </Box>
