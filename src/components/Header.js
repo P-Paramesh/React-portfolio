@@ -55,7 +55,7 @@ const Header = () => {
           boxShadow="lg"
           boxSize="300px"
           src="https://avatars.githubusercontent.com/u/95079545?s=400&u=e5f36db1d6a7fda807dd060cb3bc2d3e03e7b403&v=4" 
-          alt="Profile Picture"
+          alt="Profile Pic"
           zIndex={1} 
           />
       </Flex>
