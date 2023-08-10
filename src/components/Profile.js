@@ -1,10 +1,10 @@
 import React from 'react';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import {Box, Flex,Heading,Text, }from "@chakra-ui/layout"
-import Icon from "@chakra-ui/icon"
+import {Box, Flex,Heading,Text, }from "@chakra-ui/layout";
+import Icon from "@chakra-ui/icon";
 import {DiReact, } from "react-icons/di";
-import {SiChakraui} from "react-icons/si"
-import {ImGithub} from "react-icons/im"
+import {SiChakraui} from "react-icons/si";
+import {ImGithub} from "react-icons/im";
 
 const Profile = () => {
   const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
