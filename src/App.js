@@ -9,7 +9,6 @@ import Profile from "./components/Profile";
 const App = () => {
     const { colorMode, toggleColorMode } = useColorMode();
     const isDark = colorMode === "dark"
-
     return (
       <VStack p="5">
         <Flex w="100%">
