@@ -33,8 +33,8 @@ const App = () => {
           </IconButton>
         </Flex>
         <Header />
-        <Profile />
         <Social />
+        <Profile />
       </VStack>
     )
 }
