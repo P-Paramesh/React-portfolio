@@ -5,6 +5,7 @@ import { FaLinkedin, FaGithub} from "react-icons/fa";
 import { FaMoon, FaSun } from "react-icons/fa";
 import Header from "./components/Header";
 import Profile from "./components/Profile";
+import Social from "./components/Social";
 
 const App = () => {
     const { colorMode, toggleColorMode } = useColorMode();
@@ -33,6 +34,7 @@ const App = () => {
         </Flex>
         <Header />
         <Profile />
+        <Social />
       </VStack>
     )
 }
