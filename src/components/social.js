@@ -10,6 +10,6 @@ const Social = () => {
       <Icon as={FaLinkedin} boxSize={50} />
       <Icon as={FaYoutube} boxSize={50} />
     </HStack>
-  )
-}
+  );
+};
 export default Social;
